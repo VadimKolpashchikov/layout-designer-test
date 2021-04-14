@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Announcement</title>
+</head>
+<body class="page__body">
+
+  <section class="housing">
+    <div class="housing__img-wrapper">
+      <picture class="housing__picture">
+        <img class="housing__img"
+             src="img/apartment-plan.png"
+             srcset="img/apartment-plan@2x.png 2x"
+             alt="План квартиры"
+             width="178"
+             height="178">
+      </picture>
+    </div>
+    <div class="housing__info-wrapper">
+      <h1 class="housing__title">2-к квартира</h1>
+      <ul class="housing__info-list info-list">
+        <li class="info-list__item">
+          <p class="info-list__item-name">Этаж</p>
+          <span>3 из 19</span>
+        </li>
+        <li class="info-list__item">
+          <p class="info-list__item-name">Высота потолков</p>
+          <span>3,2 м</span>
+        </li>
+        <li class="info-list__item">
+          <p class="info-list__item-name">Общая площадь</p>
+          <span>32,24 м²</span>
+        </li>
+        <li class="info-list__item position-changes">
+          <p class="info-list__item-name">Отделка</p>
+          <span>Предчистовая</span>
+        </li>
+        <li class="info-list__item">
+          <p class="info-list__item-name">Жилая площадь</p>
+          <span>22,24 м²</span>
+        </li>
+        <li class="info-list__item">
+          <p class="info-list__item-name">Площадь кухни</p>
+          <span>14,24 м²</span>
+        </li>
+      </ul>
+      <div class="housing__info-button-wrapper">
+        <button class="housing__info-button housing__info-button_positive">
+          <svg class="housing__info-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.9993 4.02204C14.3895 4.41261 14.3894 5.04555 13.999 5.43596L7.46823 11.9667C7.08965 12.3453 6.48006 12.3586 6.0854 11.9968L2.82592 9.00892C2.40536 8.6234 2.39204 7.96472 2.79668 7.56252C3.17557 7.18592 3.78357 7.17363 4.17737 7.53461L6.37815 9.55199C6.57548 9.73288 6.88027 9.72626 7.06956 9.53697L12.5848 4.02175C12.9754 3.63111 13.6088 3.63124 13.9993 4.02204Z" fill="#64B851"/>
+          </svg>
+          Вы были на просмотре
+        </button>
+        <button class="housing__info-button housing__info-button_negative">
+          <svg class="housing__info-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5356 3.05022C11.9261 2.65969 12.5592 2.65969 12.9498 3.05022C13.3403 3.44074 13.3403 4.07391 12.9498 4.46443L9.41424 7.99996L12.9498 11.5355C13.3403 11.926 13.3403 12.5592 12.9498 12.9497C12.5592 13.3402 11.9261 13.3402 11.5356 12.9497L8.00003 9.41418L4.46449 12.9497C4.07397 13.3402 3.4408 13.3402 3.05028 12.9497C2.65975 12.5592 2.65975 11.926 3.05028 11.5355L6.58581 7.99996L3.05028 4.46443C2.65975 4.07391 2.65975 3.44074 3.05028 3.05022C3.4408 2.65969 4.07397 2.65969 4.46449 3.05022L8.00003 6.58575L11.5356 3.05022Z" fill="#EB4B51"/>
+          </svg>
+          Дом аккредитован другим банком
+        </button>
+      </div>
+    </div>
+    <button class="housing__close-button" type="button" aria-label="Закрыть"></button>
+    <div class="housing__price-wrapper">
+      <p class="housing__price_text">Ваша цена по брони до <span class="housing__price_date">19 сентября</span></p>
+      <span class="housing__price_number">3 312 666 Р</span>
+      <p class="housing__price_text">
+        Текущая цена у застройщика дороже на
+        <span class="housing__price_difference">324 825 Р</span>
+      </p>
+      <button class="housing__button_choice button">
+        <svg class="housing__button_icon button__icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.68294 5.5634C7.88707 5.08313 8 4.55475 8 4C8 1.79086 6.20914 0 4 0C1.79086 0 0 1.79086 0 4C0 6.20914 1.79086 8 4 8C4.55379 8 5.0813 7.88746 5.5609 7.684L6.68825 8.81135C6.74736 8.87046 6.83209 8.89611 6.91406 8.87972L8.18262 8.62601C8.35763 8.59101 8.51189 8.74538 8.47676 8.92036L8.26977 9.95139C8.23466 10.1263 8.38877 10.2806 8.56373 10.2458L9.59747 10.0398C9.77232 10.005 9.92639 10.1591 9.89148 10.334L9.6379 11.6036C9.62153 11.6856 9.64719 11.7703 9.70628 11.8294L9.8474 11.9705C9.9239 12.047 10.0231 12.0966 10.1302 12.1119L11.1202 12.2533C11.7802 12.3476 12.3458 11.7819 12.2516 11.122L12.1101 10.132C12.0948 10.0249 12.0452 9.92568 11.9687 9.84918L7.68294 5.5634ZM3.5 5C4.32843 5 5 4.32843 5 3.5C5 2.67157 4.32843 2 3.5 2C2.67157 2 2 2.67157 2 3.5C2 4.32843 2.67157 5 3.5 5Z"/>
+        </svg>
+        Выбрать для покупки
+      </button>
+    </div>
+  </section>
+</body>
+</html>

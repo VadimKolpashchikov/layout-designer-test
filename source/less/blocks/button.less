@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 44px;
+  font-weight: 500;
+  background-color: @button-background;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  box-sizing: border-box;
+
+  &__icon {
+    fill: @text;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: @button-hover-background;
+  }
+
+  &:active {
+    background-color: @button-click-background;
+  }
+}
